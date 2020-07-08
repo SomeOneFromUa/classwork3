@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "classwork3"
+    }
+  },
+  "defaultProject": "classwork3",
+  "cli": {
+    "analytics": "ba0a5fe8-4a57-4e80-be92-53a271d7467a"
+  }
 }

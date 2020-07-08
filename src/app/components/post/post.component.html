@@ -1,0 +1,14 @@
+<mat-card class="post-card">
+  <mat-card-title>
+    <h4>{{post.title}}</h4>
+  </mat-card-title>
+  <hr>
+  <mat-card-content>
+    <p>{{post.body}}</p>
+  </mat-card-content>
+  <button (click)="onClick()" mat-button>{{isOpen? 'hide': 'show'}} comments</button>
+  <div class="init" [class.show]="isOpen">
+  <app-comment *ngFor="let comment of comments" [comment]="comment"
+  ></app-comment>
+  </div>
+</mat-card>

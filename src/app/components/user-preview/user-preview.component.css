@@ -1,0 +1,8 @@
+.user-card {
+  width: 300px;
+  border: solid 1px purple;
+  margin: 5px;
+  background-color: mediumpurple;
+  color: white;
+  cursor: pointer;
+}

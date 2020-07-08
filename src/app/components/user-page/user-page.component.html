@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="user-info">
+    <mat-card class="info">
+      <mat-card-title>
+        <h3> {{user.username}}</h3>
+        <mat-card-content>
+          <hr>
+          <p>{{user.name}}</p>
+          <p>{{user.email}}</p>
+          <p>{{user.address.city}}</p>
+          <p>{{user.address.street}}</p>
+        </mat-card-content>
+
+      </mat-card-title>
+    </mat-card>
+  </div>
+  <div class="posts-list">
+    <app-post *ngFor="let post of posts" [post]="post"
+    ></app-post>
+  </div>
+</div>

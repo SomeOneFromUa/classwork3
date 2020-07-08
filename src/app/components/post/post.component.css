@@ -1,0 +1,15 @@
+.post-card {
+  padding: 10px;
+  margin: 5px auto;
+  background-color: mediumpurple;
+  color: white;
+  width: 700px
+}
+.init {
+  display: none;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px ;
+}
